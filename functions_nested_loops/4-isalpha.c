@@ -1,22 +1,24 @@
 #include "main.h"
-
 /**
- * _isalpha - Shows 1 if the input is a
- * letter Another cases, shows 0
- *
- * @c: The character in ASCII code
- *
- * Return: 1 for letters. 0 for the rest.
+ * print_sign - a function that prints the sign of a number
+ * @n: number input
+ * Return: 1 prints '+' if n > 0, 0 prints '0' if n = 0, -1 prints '-' if n < 0
  */
-int _isalpha(int c)
+int print_sign(int n)
 {
-	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
+	if (n > 0)
 	{
+		_putchar ('+');
 		return (1);
+	}
+	else if (n == 0)
+	{
+		_putchar ('0');
+		return (0);
 	}
 	else
 	{
-		return (0);
+		_putchar ('-');
+		return (-1);
 	}
-	_putchar('\n');
 }
