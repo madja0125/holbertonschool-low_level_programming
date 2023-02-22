@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * print_alphabet 
  * Return: 0 
@@ -7,8 +7,8 @@ include "main.h"
 void print_alphabet(void)
 {
 	int n;
-	for (ch= 'a'; ch<= 'z'; ch++)
-	{putchar (ch);
-	}
+	for (n= 'a'; n<= 'z'; n++)
+	putchar (n);
+	
 	putchar('\n');
 }
