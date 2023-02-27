@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - tales pointer to a parameter and updates its value
- * @n: inout intiger
+ * @n: input intiger
  * Return 0
  */
 
