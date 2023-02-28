@@ -5,7 +5,7 @@
  * Return: string and in reverse
  */
 
-void print_rev(char *s);
+void print_rev(char *s)
 {
 	int count = 0;
 
@@ -16,7 +16,7 @@ void print_rev(char *s);
 		count++;
 	}
 
-	for (count--; count >= 0; count--)
+	for (count--; count >= 0; count--;)
 		_putchar(s[count]);
 	_putchar('\n');
 }
