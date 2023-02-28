@@ -8,25 +8,16 @@
 void print_rev(char *s);
 
 {
-	int len = strlen(s)
+	int count = 0;
 
-	char int i = 0, j = 0;
-
-	char temp[100];
-
-	for (i = 0; < len; i++)
+	while (count >= 0)
 	{
-		for (j = 0; i < len; j++ i++)
-		{
-			if (s[i] == ' ' || s[i] == '.')
-				break;
-			temp[j] = s[i];
-		}
 
-		while (j > 0)
-		{
-			j--;
-			s[i - j - 1] = temp[j];
-		}
+			break;
+		count++;
 	}
+
+	for (count--; count >= 0; count--)
+		_putchar(s[count]);
+	_putchar('\n');
 }
