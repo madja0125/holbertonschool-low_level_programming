@@ -1,13 +1,32 @@
 #include "main.h"
 /**
- * _puts a function that prints a string
- * @str:string input
- * Return: string
+ * rev_string a function that reverses a string
+ * @s: input to reverse
+ * Return: string and in reverse
  */
 
 void print_rev(char *s);
 
 {
-	int i;
+	int len = strlen(s)
 
-	for 
+	char int i = 0, j = 0;
+
+	char temp[100];
+
+	for (i = 0; < len; i++)
+	{
+		for (j = 0; i < len; j++ i++)
+		{
+			if (s[i] == ' ' || s[i] == '.')
+				break;
+			temp[j] = s[i];
+		}
+
+		while (j > 0)
+		{
+			j--;
+			s[i - j - 1] = temp[j];
+		}
+	}
+}
