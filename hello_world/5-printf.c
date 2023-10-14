@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * Main - is the entry point of the program
+ * main - is the entry point of the program
  * Return: (0) (Always Suscesful)
  */
 
-int main (void)
+int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 
