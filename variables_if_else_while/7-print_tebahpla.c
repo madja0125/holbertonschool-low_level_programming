@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- *
- * main - entry point of the program
- * Return: Always (0)
- */
+  * main - entry point of the program
+  * Return: Always (0)
+  */
 
 int main(void)
 {
@@ -14,6 +13,6 @@ int main(void)
 		putchar(i);
 	}
 	putchar('\n');
-	
+
 	return (0);
 }
