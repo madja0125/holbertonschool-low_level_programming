@@ -3,12 +3,11 @@
 #include <stdio.h>
 
 /**
- * more headers goes there
- * main - entey point of the program
- * n - the value
- * Return: Always (0)
- * betty style doc for function main goes there
- */
+  * main - entey point of the program
+  * n - the value
+  * Return: Always (0)
+  * betty style doc for function main goes there
+  */
 
 int main(void)
 {
@@ -19,7 +18,7 @@ int main(void)
 	i = n % 10;
 
 	if (i > 5)
-	printf("Last digit of %d is %d greater than 5\n", n, i);
+	printf("Last digit of %d is %d and is greater than 5\n", n, i);
 
 	else if (i == 0)
 	printf("Last digit of %d is %d and is 0\n", n, i);
