@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * main -entry point
- * _islower - checks for lowercase
- * c: the integer that checks
+ * _islower - point of entry
+ * @c: the variable
  * Return: Always (0)
  */
 
