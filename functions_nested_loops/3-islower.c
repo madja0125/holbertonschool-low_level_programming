@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * main -entry point
- * islower - checks for lowercase
+ * _islower - checks for lowercase
+ * c: the integer that checks
  * Return: Always (0)
  */
 
@@ -11,7 +12,7 @@ int _islower(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
 	}
