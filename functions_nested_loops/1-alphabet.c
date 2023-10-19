@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - entry point
- * void print_alphabet(void); - is the prototype
+ * void print_alphabet(void) - is the prototype
  * Return: Always (0)
  */
 
