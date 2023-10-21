@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * int add(int, int) - the sum of the integers
- *
- * @a: number 1
- * @b: number 2
- * Return: the sum
+ * add - starting point
+ * @a: variable
+ * @b: variable
+ * Return: 0
  */
 
 int add(int a, int b)
