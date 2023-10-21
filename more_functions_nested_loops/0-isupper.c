@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * isupper - checks
+ * _isupper - checks
+ * @c: variable
  * Return: (0)
  */
 
