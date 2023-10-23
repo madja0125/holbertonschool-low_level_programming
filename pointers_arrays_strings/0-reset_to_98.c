@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * reset_to_98 - starting point 
+ * reset_to_98 - starting point
  * Return: 0 Always
  * @n: variable
  */
